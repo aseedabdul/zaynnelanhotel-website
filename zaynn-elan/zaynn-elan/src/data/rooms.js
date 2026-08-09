@@ -1,0 +1,70 @@
+import { IMAGES } from './images.js';
+
+export const ROOMS = [
+  {
+    id: 'grand-deluxe',
+    name: 'Grand Deluxe Room',
+    tagline: 'A refined retreat with generous living space, natural textures, and panoramic views.',
+    size: '52 m²',
+    guests: '2 Guests',
+    bed: 'King Bed',
+    price: 520,
+    amenities: [
+      'King bed with premium linens',
+      'Rain shower & soaking tub',
+      'Nespresso bar & minibar',
+      'High-speed Wi-Fi',
+      '55" smart television',
+      'In-room climate control',
+    ],
+    images: [
+      { src: IMAGES.deluxeBedroom, alt: 'Grand Deluxe Room bedroom with king bed and warm lighting', label: 'Bedroom' },
+      { src: IMAGES.deluxeBathroom, alt: 'Grand Deluxe Room marble bathroom with freestanding bathtub', label: 'Bathroom' },
+      { src: IMAGES.deluxeSitting, alt: 'Grand Deluxe Room sitting and relaxation corner', label: 'Sitting Area' },
+    ],
+  },
+  {
+    id: 'executive-suite',
+    name: 'Executive Suite',
+    tagline: 'An expansive suite designed for longer stays, featuring a separate living area and elevated amenities.',
+    size: '84 m²',
+    guests: '3 Guests',
+    bed: 'King Bed + Sofa Bed',
+    price: 940,
+    amenities: [
+      'Separate living room',
+      'King bed with premium linens',
+      'Deep soaking bathtub',
+      'Private work desk',
+      'Espresso bar & minibar',
+      'Priority concierge line',
+    ],
+    images: [
+      { src: IMAGES.executiveBedroom, alt: 'Executive Suite bedroom with layered linens and bedside lamp', label: 'Bedroom' },
+      { src: IMAGES.executiveLiving, alt: 'Executive Suite separate living area with sectional sofa', label: 'Living Room' },
+      { src: IMAGES.executiveBathroom, alt: 'Executive Suite bathroom with modern freestanding bathtub', label: 'Bathroom' },
+    ],
+  },
+  {
+    id: 'presidential-suite',
+    name: 'Zaynn Presidential Suite',
+    tagline: 'Our most exceptional residence, combining private entertaining spaces, bespoke furnishings, and uninterrupted views.',
+    size: '160 m²',
+    guests: '4 Guests',
+    bed: 'Two Bedrooms',
+    price: 2150,
+    amenities: [
+      'Private entertaining & dining space',
+      'Master suite with dressing room',
+      'Marble ensuite with gold fixtures',
+      'Panoramic terrace views',
+      'Dedicated butler service',
+      'Private check-in',
+    ],
+    images: [
+      { src: IMAGES.presidentialBedroom, alt: 'Zaynn Presidential Suite master bedroom with premium bed linens', label: 'Master Bedroom' },
+      { src: IMAGES.presidentialBathroom, alt: 'Zaynn Presidential Suite marble bathroom with gold fixtures', label: 'Bathroom' },
+      { src: IMAGES.presidentialView, alt: 'Zaynn Presidential Suite skyline view at night', label: 'Terrace View' },
+    ],
+  },
+];
